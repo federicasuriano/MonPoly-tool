@@ -1,0 +1,10 @@
+(ocamlyacc
+  (modules formula_parser log_parser))
+
+(ocamllex
+  (modules formula_lexer log_lexer))
+
+(executable
+  (name main)
+  (libraries str unix)
+  (flags (:standard -w -50)))
