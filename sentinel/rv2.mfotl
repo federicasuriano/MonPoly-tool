@@ -1,0 +1,3 @@
+(c <- CNT idReport ONCE[0,1d] 
+situation(idReport,idAddress,city,province,housingExpl,healthExpl,paymentExpl,laborExpl,employerExpl,householdsExceeded,workingHoursExceeded,paymentExceeded,noContract,noVacation) AND tpts(i,j)) 
+IMPLIES c <= 10

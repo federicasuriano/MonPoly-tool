@@ -1,0 +1,3 @@
+(c <- CNT idReport;employerExpl ONCE 
+situation(idReport,idAddress,city,province,housingExpl,healthExpl,paymentExpl,laborExpl,employerExpl,householdsExceeded,workingHoursExceeded,paymentExceeded,noContract,noVacation) AND tpts(i,j) AND employerExpl=true) 
+IMPLIES c <= 40

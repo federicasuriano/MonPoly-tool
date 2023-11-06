@@ -1,0 +1,6 @@
+EXISTS idReport,idAddress,city,province,housingExpl,healthExpl,paymentExpl,
+laborExpl,employerExpl,householdsExceeded, paymentExceeded,
+noContract,noVacation . 
+(situation(idReport,idAddress,city,province,housingExpl,healthExpl,paymentExpl,
+laborExpl,employerExpl,householdsExceeded,workingHoursExceeded,paymentExceeded,
+noContract,noVacation) AND householdsExceeded=false AND housingExpl=true)

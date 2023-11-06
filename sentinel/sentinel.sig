@@ -1,0 +1,1 @@
+situation(idR:int, idA:int, city:string, province:string, housingExpl:string, healthExpl:string, paymentExpl:string, laborExpl:string, employerExpl:string, householdsExceeded:string, workingHoursExceeded:string, paymentExceeded:string, noContract:string, noVacation:string)
